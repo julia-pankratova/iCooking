@@ -1,0 +1,130 @@
+.header {
+	background-color: #57372D;
+	color: white;
+	margin: 0;
+	padding: 0px 0px;
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	align-items: center;
+}
+
+.span {
+	font-size: 50px;
+}
+
+
+body {
+	margin: 0;
+	font-family: 'Viga', sans-serif;
+}
+
+.conteiner {
+	background-image: url(images/6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.info {
+	height: 100vh;
+    background-color: #745349;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18%;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.option {
+	border: 0;
+    background: 0;
+    color: white;
+    margin: 0px 15px;
+}
+
+.text {
+	display: flex;
+}
+
+.button {
+	display: flex;
+	margin: 20px;
+}
+
+.information {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.knop {
+	background-image: url(images/16.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 7px;
+	padding: 10px 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 80px;
+}
+
+.koshuk {
+	background-image: url(images/19.jpg);
+}
+
+.sea {
+	background-image: url(images/20.jpg);
+}
+
+.bear {
+	background-image: url(images/23.jpg);
+}
+
+.learn {
+	border: 0;
+	border-bottom: 1px solid black;
+	background:0;
+	color: black;
+}
+
+p {
+	font-size: 14px;
+	margin: 6px 0;
+	font-weight: 300;
+}
+
+@media (max-width: 768px) {
+	.text {
+		display: none;
+	}
+}
+
+.no {
+	width: 50px;
+	height: 30px;
+	background-image: url(images/26.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+	.no {
+		display: none;
+	} 
+}
+
+@media (max-width: 579px) {
+	.info {
+		justify-content: center;
+	}
+}
+
